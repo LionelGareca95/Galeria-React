@@ -2,6 +2,10 @@ import Navbar from "./components/Navbar/Navbar";
 import './App.css'
 import Intro from "./components/Navbar/Intro/Intro";
 import Services from "./components/services/Services";
+import Experiencie from "./components/Experiencie/Experiencie";
+import Works from "./components/Works/Works";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -9,6 +13,10 @@ function App() {
       <Navbar/>
       <Intro/>
       <Services/>
+      <Experiencie/>
+      <Works/>
+      <Portfolio/>
+      <Testimonials/>
     </div>
   );
 }
