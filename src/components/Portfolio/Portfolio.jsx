@@ -35,7 +35,7 @@ const Portfolio = () => {
             </SwiperSlide>
         </Swiper>
     </div>
-  )
-}
+  );
+};
 
 export default Portfolio
