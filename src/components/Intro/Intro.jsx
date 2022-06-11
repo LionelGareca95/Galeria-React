@@ -15,7 +15,8 @@ import { useContext } from "react";
 import {motion} from 'framer-motion'
 
 const Intro = () => {
-    const transition = {duration: 2, type: 'spring'}
+
+        const transition = {duration: 2, type: 'spring'}
     
         const theme = useContext(themeContext)
         const darkMode = theme.state.darkMode;
@@ -50,7 +51,7 @@ const Intro = () => {
             initial={{top: '-4%', left: '74%'}}
             whileInView= {{left: '68%'}}
             transition={transition}
-            
+            className='floating-div'
             style={{top: '-4%', left: '68%'}}>
                 <FloatingDiv image={crown} txt1="web" txt2="Developer"/>
             </motion.div>
@@ -58,7 +59,7 @@ const Intro = () => {
                 initial={{left: '9rem', top: '18rem'}}
                 whileInView= {{left: '0rem'}}
                 transition={transition}
-                
+                className='floating-div'
                 style={{top: '18rem', left: '0rem'}}>
                 <FloatingDiv image={thumbup} txt1='Design' text2='Award'/>
             </motion.div>

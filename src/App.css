@@ -27,6 +27,11 @@
 
 }
 
+@media screen and (max-width: 480px) {
+  .App {
+    padding-left: 1rem 1rem;
+  }
+}
 
   
 

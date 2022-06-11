@@ -6,6 +6,11 @@
     height: 30vh;
     margin-bottom: 8rem;
 }
+@media screen and (max-width: 768px) {
+    .experiencie {
+        gap: 2rem;
+    }
+}
 .achievement {
     display: flex;
     flex-direction: column;

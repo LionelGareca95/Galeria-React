@@ -37,7 +37,7 @@ const Testimonials = () => {
     
 
   return (
-    <div className="t-wrapper">
+    <div className="t-wrapper" id='Testimonials'>
         <div className="t-headding">
             <span>Clients Always get</span>
             <span> Exceptional Work </span>
@@ -50,6 +50,7 @@ const Testimonials = () => {
             modules={[Pagination]}
             slidesPerView={1}
             pagination={{clickable: true}}
+            grabCursor={true}
             >
                 {clients.map((client, index)=> {
                   return(
